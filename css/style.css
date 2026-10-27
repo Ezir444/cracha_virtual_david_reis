@@ -14,6 +14,7 @@ body {
     text-align: center;
 }
 .avatar {
+    margin: 20px;
     background-color: #e2e8f0;
     height: 150px;
     width: 150px;
@@ -43,20 +44,21 @@ body {
     border-radius: 10px;
     display: inline-block;
     padding: 5px;
+    border-radius: 10px;
 }
 .badge-html {
-    border-radius: 10px;
+    margin-right: 10px;
     color: #dc2626;
     background-color: #fee2e2;
 }
 
 .badge-css3 {
-    border-radius: 10px;
     background-color: #dbeafe;
     color: #2563eb;
 }
 
 .badge-git {
+    margin-left: 10px;
     background-color: #ffedd5;
     color: #ea580c;
 }
@@ -64,8 +66,10 @@ body {
 .badge-status {
     display: inline-block;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 3px 8px;
     border-radius: 10px;
     background-color: #dcfce7;
     color: #17a34a;
+    font-weight: 700;
 }
