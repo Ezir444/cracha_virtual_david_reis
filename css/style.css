@@ -9,45 +9,63 @@ body {
     text-align: center;
     background-color: rgb(231, 233, 235);
 }
+
+.bio {
+    text-align: center;
+}
 .avatar {
-    width: 200px;
+    background-color: #e2e8f0;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .card-perfil {
     width: 320px;
     background-color: #ffff;
     border-radius: 20px;
-    
 }
 
-.badge-html {
-    display: inline-block;
-    padding: 3px 8px;
+.profissao {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.destaque-senai {
+    color: #015aa3;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.badge {
+    margin-bottom: 10px;
     border-radius: 10px;
-    background-color: rgb(236, 157, 157);
-    color: red;
+    display: inline-block;
+    padding: 5px;
+}
+.badge-html {
+    border-radius: 10px;
+    color: #dc2626;
+    background-color: #fee2e2;
 }
 
 .badge-css3 {
-    display: inline-block;
-    padding: 3px 8px;
     border-radius: 10px;
-    background-color: rgb(107, 107, 218);
-    color: rgb(30, 27, 197);
+    background-color: #dbeafe;
+    color: #2563eb;
 }
 
 .badge-git {
-    display: inline-block;
-    padding: 3px 8px;
-    border-radius: 10px;
-    background-color: rgb(240, 194, 108);
-    color: rgb(214, 151, 34);
+    background-color: #ffedd5;
+    color: #ea580c;
 }
 
 .badge-status {
     display: inline-block;
+    margin-top: 10px;
     padding: 3px 8px;
     border-radius: 10px;
-    background-color: rgb(109, 190, 109);
-    color: green;
+    background-color: #dcfce7;
+    color: #17a34a;
 }
