@@ -1,4 +1,53 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(231, 233, 235);
+}
 .avatar {
     width: 200px;
 }
 
+.card-perfil {
+    width: 320px;
+    background-color: #ffff;
+    border-radius: 20px;
+    
+}
+
+.badge-html {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(236, 157, 157);
+    color: red;
+}
+
+.badge-css3 {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(107, 107, 218);
+    color: rgb(30, 27, 197);
+}
+
+.badge-git {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(240, 194, 108);
+    color: rgb(214, 151, 34);
+}
+
+.badge-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(109, 190, 109);
+    color: green;
+}
